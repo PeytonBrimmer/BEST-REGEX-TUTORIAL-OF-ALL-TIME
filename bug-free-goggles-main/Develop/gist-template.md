@@ -58,7 +58,10 @@ Adding ? to a quantifier makes it "lazy"
 "Lazy" Means: Match as few occurences of an expression as possible.
 
 ### OR Operator
-OR operators use | to return a value from a boolean to figure out if either or both operands are true, it will return true and otherwise it will return false. the operands are converted to bool type and the logical OR has a left to right associativity. example: ^(part1|part2)$
+OR operators use | to return a value from a boolean to figure out if either or both operands are true, it will return true and otherwise it will return false. the operands are converted to bool type and the logical OR has a left to right associativity. 
+
+example: ^(part1|part2)$
+____________________________________________________________________
 ### Character Classes
 character classes are used to match any of the enclosed characters. Characters can be specified into a range by using hyphens, but in the occurence of a hyphen appearing as the first or last character enclosed inside square brackets, it is taken as a literal hyphen which is then included in the character class as a nromal character.
 
@@ -201,6 +204,6 @@ example: /(?=(a+))a*b\1/.exec("baabac"); // ['aba', 'a']
 ____________________________________________________
 ## Author
 
-This REGEX tutorial was created by Peyton Brimmer as aas a challenge during the MSU fullstack bootcamp of 2024.
+This REGEX tutorial was created by Peyton Brimmer as a challenge during the MSU fullstack bootcamp of 2024.
 
 
