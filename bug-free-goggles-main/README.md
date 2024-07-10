@@ -31,11 +31,15 @@ Learn how to use regular expressions in popular programming languages like Pytho
 
 ## Tips and Best Practices
 
-Discover some tips and best practices for writing efficient and maintainable regular expressions.
 
-## Additional Resources
+## Additional Resources / SOURCES
 
-Find a curated list of additional resources to further enhance your understanding of regular expressions.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators
+https://regexone.com/
+https://regexr.com/
+https://en.wikipedia.org/wiki/Regular_expression
+https://stackoverflow.com/questions/4736/learning-regular-expressions
 
 ## Contributing
 
